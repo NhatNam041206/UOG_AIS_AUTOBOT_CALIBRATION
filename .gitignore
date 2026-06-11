@@ -135,6 +135,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+.env.production
 .env
 .envrc
 .venv
@@ -213,3 +214,6 @@ notebooks/
 videos/
 logs/
 temp/
+
+# Codex local worktrees
+.claude/worktrees/
